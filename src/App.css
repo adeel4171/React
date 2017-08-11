@@ -1,0 +1,35 @@
+body{
+
+	background-color: black;
+	color: white;
+}
+
+.App{
+
+	font-size: 20px;
+	margin: 10%;
+	margin-left: 20%;
+}
+
+.App-field{
+
+	margin-left: 20%;
+}
+.countdown-portion{
+
+	margin-left: 10%;
+	margin-top: 5%;
+
+}
+
+.clock{
+	display: inline-block;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	margin-top: 5%;
+}
+
+.clock-days,.clock-hours,.clock-minutes,.clock-seconds{
+
+	display: inline;
+}
