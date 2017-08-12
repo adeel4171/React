@@ -44,6 +44,7 @@ class App extends Component
 				 <Clock deadline={this.state.date} > </Clock>
 
 					 <Form inline>
+					 <div className="date-placeholder"> Select Date </div>
 					 <FormControl type="date" placeholder="Enter Date" onChange={event => this.setState({newDate: event.target.value})}></FormControl>
 					 <Button onClick={() => this.calculateDate() }> Search </Button>
 					 </Form>

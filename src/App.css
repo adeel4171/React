@@ -7,7 +7,7 @@ body{
 .App{
 
 	font-size: 20px;
-	margin: 10%;
+	margin: 5%;
 	margin-left: 20%;
 }
 
@@ -18,13 +18,13 @@ body{
 .countdown-portion{
 
 	margin-left: 10%;
-	margin-top: 5%;
+	margin-top: 10%;
 
 }
 
 .clock{
 	display: inline-block;
-	margin-left: 3%;
+	margin-left: 1%;
 	margin-bottom: 2%;
 	margin-top: 5%;
 }
@@ -32,4 +32,8 @@ body{
 .clock-days,.clock-hours,.clock-minutes,.clock-seconds{
 
 	display: inline;
+}
+.date-placeholder{
+	margin: 1%;
+	margin-bottom: 2%;
 }
